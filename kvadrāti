@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kvadrāts</title>
+</head>
+<style>
+.kv {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        
+    }
+.a{
+
+}
+.b{
+    background-color:blue;
+}
+.c{
+    background-color:yellowgreen;
+}
+.d{
+    background-color:yellow;
+}
+.t{
+    display:flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+</style>
+<body>
+    <h1>kvadrāti</h1>
+    <div class=t>
+     <div class="kv a"></div>
+     <div class="kv b"></div>
+     <div class="kv c"></div>
+     <div class="kv d"></div>  
+    </div>
+
+</body>
+</html>
